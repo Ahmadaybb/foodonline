@@ -2,7 +2,8 @@
 
 
 from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('nfo5o')
+    return render(request,'home.html')
